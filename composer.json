@@ -1,7 +1,7 @@
 {
-    "name": "bpmnmaker/package-skeleton",
-    "friendly_name": "Package Skeleton",
-    "description": "Package skeleton to develop a package for ProcessMaker 4",
+    "name": "bpmnmaker/connectors",
+    "friendly_name": "Connectors",
+    "description": "Package connectors to develop a package for ProcessMaker 4",
     "license": "AGPL-3.0-or-later",
     "version": "0.0.3",
     "type": "project",
@@ -15,14 +15,14 @@
     },
     "autoload": {
         "psr-4": {
-            "ProcessMaker\\Package\\PackageSkeleton\\": "src",
+            "ProcessMaker\\Package\\Connectors\\": "src",
             "Tests\\": "tests/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "ProcessMaker\\Package\\PackageSkeleton\\PackageServiceProvider"
+                "ProcessMaker\\Package\\Connectors\\ActionsByEmail\\EmailProvider",
             ]
         }
     },

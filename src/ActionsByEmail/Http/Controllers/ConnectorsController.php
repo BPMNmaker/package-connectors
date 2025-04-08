@@ -1,19 +1,19 @@
 <?php
 
-namespace ProcessMaker\Package\PackageSkeleton\Http\Controllers;
+namespace ProcessMaker\Package\Connectors\Http\Controllers;
 
 use Illuminate\Http\Request;
 use ProcessMaker\Http\Controllers\Controller;
 use ProcessMaker\Http\Resources\ApiCollection;
-use ProcessMaker\Package\PackageSkeleton\Models\Sample;
+use ProcessMaker\Package\Connectors\Models\Sample;
 use RBAC;
 use URL;
 
-class PackageSkeletonController extends Controller
+class ConnectorsController extends Controller
 {
     public function index()
     {
-        return view('package-skeleton::index');
+        return view('connectors::index');
     }
 
     public function fetch(Request $request)
