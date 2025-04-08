@@ -15,14 +15,14 @@
     },
     "autoload": {
         "psr-4": {
-            "ProcessMaker\\Packages\\Connectors\\": "src",
+            "ProcessMaker\\Packages\\Connectors\\ActionsByEmail\\": "src",
             "Tests\\": "tests/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "ProcessMaker\\Packages\\Connectors\\EmailProvider"
+                "ProcessMaker\\Packages\\Connectors\\ActionsByEmail\\EmailProvider"
             ]
         }
     },

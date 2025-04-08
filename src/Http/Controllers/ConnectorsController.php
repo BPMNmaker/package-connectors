@@ -1,11 +1,11 @@
 <?php
 
-namespace ProcessMaker\Packages\Connectors\Http\Controllers;
+namespace ProcessMaker\Packages\Connectors\ActionsByEmail\Http\Controllers;
 
 use Illuminate\Http\Request;
 use ProcessMaker\Http\Controllers\Controller;
 use ProcessMaker\Http\Resources\ApiCollection;
-use ProcessMaker\Packages\Connectors\Models\Sample;
+use ProcessMaker\Packages\Connectors\ActionsByEmail\Models\Sample;
 use RBAC;
 use URL;
 

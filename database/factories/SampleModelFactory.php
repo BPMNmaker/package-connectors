@@ -1,6 +1,6 @@
 <?php
 
-namespace ProcessMaker\Packages\Connectors\Database\Factories;
+namespace ProcessMaker\Packages\Connectors\ActionsByEmail\Database\Factories;
 
 use Illuminate\Database\Eloquent\Factories\Factory;
 use ProcessMaker\Packages\Connectors\ActionsByEmail\Enums\StatusEnum;

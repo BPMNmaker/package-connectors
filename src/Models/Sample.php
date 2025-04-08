@@ -1,6 +1,6 @@
 <?php
 
-namespace ProcessMaker\Packages\Connectors\Models;
+namespace ProcessMaker\Packages\Connectors\ActionsByEmail\Models;
 
 use ProcessMaker\Models\ProcessMakerModel;
 

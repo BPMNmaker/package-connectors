@@ -11,7 +11,7 @@ use ProcessMaker\Packages\Connectors\ActionsByEmail\Listeners\PackageListener;
 class EmailProvider extends ServiceProvider
 {
     // Assign the default namespace for our controllers
-    protected $namespace = '\ProcessMaker\Packages\Connectors\Http\Controllers';
+    protected $namespace = '\ProcessMaker\Packages\Connectors\ActionsByEmail\Http\Controllers';
 
     /**
      * If your plugin will provide any services, you can register them here.
