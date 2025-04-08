@@ -22,7 +22,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "ProcessMaker\\Package\\Connectors\\ActionsByEmail\\EmailProvider",
+                "ProcessMaker\\Package\\Connectors\\ActionsByEmail\\EmailProvider"
             ]
         }
     },
